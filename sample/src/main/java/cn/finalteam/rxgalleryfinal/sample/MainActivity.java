@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //手动打开日志。
+        //手动打开日志
         ModelUtils.setDebugModel(true);
         initView();
         initImageLoader();
